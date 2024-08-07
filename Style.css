@@ -2,7 +2,7 @@
     /* One absolute positioning added */
     position: absolute;
     right: 90px;
-    top: 140px;
+    top: 120px;
     font-size: 550%;
     /* added one font family of cursive to "Welcome To Oregon" */
     font-family: cursive; 
@@ -53,8 +53,8 @@ body {
 #contactForm input[type="submit"] {
     /* One relative position added */
     position: relative;
-    left: 290px;
-    font-size: 15;
+    left: 280px;
+    font-size: 16px;
 }
 
 /* added a hover for the submit button color red */
@@ -83,7 +83,7 @@ ol {
 }
 .cityList {
     margin-left: 71%;
-    margin-top: 27%;
+    margin-top: 26%;
     position: fixed;
     font-size: 20px;
 }
