@@ -1,0 +1,95 @@
+.banner-text {
+    /* One absolute positioning added */
+    position: absolute;
+    right: 90px;
+    top: 140px;
+    font-size: 550%;
+    /* added one font family of cursive to "Welcome To Oregon" */
+    font-family: cursive; 
+}
+/* class selectors I put them on index.html & use it for Portland.html, etc.  */
+.navbar {
+    background-color: white;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    overflow: hidden;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+/* adding a hover effect of color green on the city links*/
+.navbar a:hover {
+    color:green;  
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 18px;
+    margin-top: -10px;
+}
+table {
+    margin-left: 65%;
+    margin-top: -210px;
+    height: 190px;
+    font-size: 18px;
+    
+}
+body {
+    margin-top: -30px;
+}
+/* ID Selectors */
+#contactForm {
+    font-size: x-large;
+    position: fixed;
+    right: 390px;
+    top: 310px;
+}
+#contactForm input[type="submit"] {
+    /* One relative position added */
+    position: relative;
+    left: 290px;
+    font-size: 15;
+}
+
+/* added a hover for the submit button color red */
+#contactForm input[type="submit"]:hover {
+    color: red;
+    
+}
+.grid {
+    grid-row: 1;
+    grid-column: 4;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+}
+#question {
+    margin-top: 5px;
+    width: 50%;
+    font-size: large;
+}
+/* ol selected to style, gave it the color red */
+ol {
+    margin-top: -45%;
+    margin-left: 70%;
+    font-size: 20px;
+    color: red;
+}
+.cityList {
+    margin-left: 71%;
+    margin-top: 27%;
+    position: fixed;
+    font-size: 20px;
+}
+.asideContent {
+    margin-left: 71%;
+    font-size: 20px;
+    margin-top: 5%;
+    color: black;
+}
